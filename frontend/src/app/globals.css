@@ -1,0 +1,20 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.btn-2{
+ background-color: purple;
+ color: white;
+ margin: 5px;
+}
+.btn-1{
+ background-color: white;
+ color: purple; 
+ border: 1px solid purple; 
+ margin: 5px;
+}
+.footerdata2{
+    margin-right: 20px;
+    color: white;
+}
+.footerdata1{
+    margin-left: 20px;
+    color: white;
+}
