@@ -1,15 +1,17 @@
 "use client"
 import Link from 'next/link'
+import { useRouter } from 'next/navigation';
 import React from 'react'
 
-function handleClick(){
-  console.log("Add new movies");
-}
-function handleClick2(){
-  console.log("Add new movies");
-}
-
 function Navbar() {
+  const router = useRouter();
+  function handleClick(){
+    console.log("Add new movies");
+    router.push("/pages/movies");
+  }
+  function handleClick2(){
+    console.log("Add new Reviews");
+  }
   return (
     <nav className="navbar bg-body-secondary">
       <div className="container-fluid">

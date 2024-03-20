@@ -34,3 +34,17 @@
 body{
     height: 100vh;
 }
+.dataInside{
+    margin: 10px;
+    font-size: large;
+}
+.addMovies{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.addMovieForm{
+    
+}
